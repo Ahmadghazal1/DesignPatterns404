@@ -1,4 +1,4 @@
-﻿namespace State;
+﻿namespace State.Example1;
 
 public interface IOrderState
 {

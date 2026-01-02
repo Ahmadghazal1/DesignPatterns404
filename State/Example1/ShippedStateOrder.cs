@@ -1,9 +1,9 @@
-﻿namespace State;
+﻿namespace State.Example1;
 
-public class CancelledStateOrder : IOrderState
+public class ShippedStateOrder : IOrderState
 {
     private readonly Order _order;
-    public CancelledStateOrder(Order order)
+    public ShippedStateOrder(Order order)
     {
         _order = order;
     }
@@ -14,12 +14,13 @@ public class CancelledStateOrder : IOrderState
 
     public void Ship()
     {
-        Console.WriteLine("not allowed");
+        Console.WriteLine("already shipped");
     }
 
     public void Deliver()
     {
-        Console.WriteLine("not allowed");
+        Console.WriteLine("order moves to Delivered");
+        _order.ChangeState(new DeliveredStateOrder(_order));
     }
 
     public void Cancel()

@@ -1,4 +1,6 @@
-﻿namespace State;
+﻿using State.Example1;
+
+namespace State;
 
 internal class Program
 {
