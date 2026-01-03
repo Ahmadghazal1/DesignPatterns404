@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="ChainofResponsibility/ChainofResponsibility.csproj" />
+  <Project Path="Mediator/Mediator.csproj" Id="95336402-d64a-4563-955d-14cc4c473e16" />
   <Project Path="State/State.csproj" Id="c151e831-db45-4111-b122-eef4946cc149" />
 </Solution>
