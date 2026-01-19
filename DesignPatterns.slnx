@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Adapter/Adapter.csproj" Id="e72cf0c4-78b6-4abf-b359-712d4be79dab" />
   <Project Path="ChainofResponsibility/ChainofResponsibility.csproj" />
+  <Project Path="Decorator/Decorator.csproj" Id="9d03a350-d4c2-41c3-b764-1664645ce29d" />
   <Project Path="Mediator/Mediator.csproj" Id="95336402-d64a-4563-955d-14cc4c473e16" />
   <Project Path="State/State.csproj" Id="c151e831-db45-4111-b122-eef4946cc149" />
 </Solution>

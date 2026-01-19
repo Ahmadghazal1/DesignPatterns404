@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace Mediator.Example2;
+﻿namespace Mediator.Example2;
 
 public class Airplane
 {
